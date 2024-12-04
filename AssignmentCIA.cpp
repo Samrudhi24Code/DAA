@@ -56,3 +56,15 @@ int main() {
 
     return 0;
 }
+
+
+
+
+
+
+
+
+
+There are 2^N * N possible states.
+For each state, we do at most N recursive calls to other states (for each city that hasn't been visited).
+Thus, the time complexity is O(N^2 * 2^N).
